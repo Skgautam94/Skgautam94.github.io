@@ -327,6 +327,158 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.text-custom {
+		color: #c52c20;
+	}
+	.designation {
+		color: #312450;
+	}
+
+	.btn.btn-custom-outline {
+		border: 2px solid #312450;
+		color: #2096c5;
+		background-color: #c52c20;
+	  }
+	  .btn.btn-custom-outline:hover {
+		background-color: #c52c20 !important;
+		border-color: #c52c20 !important;
+	  }
+	  .resume {
+		text-align: center;
+		color: #312450;
+	  }
+
+	  .progress-box .progress {
+		height: 8px;
+		overflow: visible;
+		border: 1px solid #ced4da;
+	  }
+	  
+	  .progress-box .progress .progress-bar {
+		height: 2px;
+		border-radius: 4px;
+		margin: auto 2px;
+		-webkit-animation: animate-positive 3s;
+				animation: animate-positive 3s;
+	  }
+	  
+	  .progress-box .progress .progress-value {
+		position: absolute;
+		top: -38px;
+		right: -20px;
+		padding: 5px;
+		font-size: 13px;
+	  }
+	  .bg-custom {
+		background-color: #c52c20;
+	  }
+	  .text-muted {
+		color: #777;
+	  }
+
+	  .title-heading .sub-title {
+		font-size: 18px;
+		letter-spacing: 1px;
+	  }
+	  
+	  .title-heading .heading {
+		font-weight: 700;
+		font-size: 50px;
+		letter-spacing: 1px;
+	  }
+	  
+	  .title-heading img {
+		height: 200px;
+		border: 5px solid #dee2e6;
+	  }
+	  
+	  .section-title {
+		position: relative;
+		margin-bottom: 30px;
+	  }
+	  
+	  .section-title .title {
+		letter-spacing: 1px;
+		font-size: 26px;
+		position: relative;
+		display: inline-block;
+		z-index: 2;
+		margin-left: 43%;
+		color: darkslategray;
+	  }
+
+	  .cont {
+		  text-align: center;
+		  margin-top: 2%;
+		  color: darkgray;
+	  }
+	  
+	  .section-title .titles:after, .section-title .titles:before {
+		content: '';
+		position: absolute;
+		width: 30px;
+		height: 2px;
+		left: calc(50% - 45px);
+		border-radius: 3px;
+		top: 55px;
+		background-color: #c52c20;
+	  }
+	  
+	  .section-title .titles:before {
+		left: calc(50% + 17px);
+	  }
+	  
+	  .section-title .titles span {
+		position: absolute;
+		width: 35px;
+		height: 17px;
+		left: calc(50% - 17px);
+	  }
+	  
+	  .section-title .titles span:before, .section-title .titles span:after {
+		content: '';
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		top: 48px;
+		left: 2px;
+		border: 2px solid #c52c20;
+		border-radius: 30px 30px 30px 0;
+		-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+	  }
+	  
+	  .section-title .titles span:after {
+		left: auto;
+		right: 2px;
+		-webkit-transform: rotate(225deg);
+				transform: rotate(225deg);
+	  }
+	  
+	  .contact-detail .icon {
+		font-size: 30px;
+	  }
+	  
+	  .contact-detail .content .title {
+		font-size: 16px;
+	  }
+	  
+	  .contact-detail p {
+		font-size: 15px;
+	  }
+	  .mail{
+		 text-align: center;
+		 color: black; 
+	  }
+	  .mymail {
+		text-align: center;
+		color: red;
+	  }
+	  .find {
+		  text-align: center;
+		  color: rgb(230, 221, 221);
+	  }
+
 /* Row */
 
 	.row {
@@ -3253,7 +3405,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #161c2d;
 		}
 
 		.wrapper.style2 {
