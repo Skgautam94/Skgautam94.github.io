@@ -6,7 +6,7 @@ function floatySpace() {
   ];
 
 
-  space = new CanvasSpace("canvas", "#252934" ).display();
+  space = new CanvasSpace("canvas", "#0D0D0D" ).display();
   var form = new Form( space );
 
   // Elements
